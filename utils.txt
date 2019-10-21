@@ -1,0 +1,5 @@
+SELECT * FROM V$VERSION;
+
+CREATE TABLE new_table AS (SELECT * FROM exist_table)
+
+how to use dblink: SELECT * FROM table@dblink_name
